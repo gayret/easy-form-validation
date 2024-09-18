@@ -1,0 +1,46 @@
+html {font-family: sans-serif;}
+
+body {
+    all: unset;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header {
+    text-align: center;
+}
+
+form {
+    display: grid;
+    gap: 1rem;
+    max-width: 270px;
+    margin-inline: auto;
+}
+
+.error-message {
+    margin-top: -.8rem;
+    color: red;
+    font-weight: bold;
+    font-size: .7rem;
+}
+
+input,
+select {
+    padding: .5rem;
+    border-radius: .5rem;
+    outline: none;
+    border: 2px solid skyblue;
+}
+
+input:focus,
+select:focus {
+    border-color: rgb(3, 104, 144);
+}
+
+footer {
+    padding: 1rem;
+    font-size: .7rem;
+    text-align: right;
+}

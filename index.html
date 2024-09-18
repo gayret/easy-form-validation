@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>easy-form-validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Form Validation</h1>
+        <small>with easy way</small>
+    </header>
+
+    <main>
+        <form validate>
+            <input type="text" name="username" placeholder="User Name" required data-pattern="username">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required data-pattern="password">
+            <input type="tel" name="phone" placeholder="Phone" data-pattern="phone">
+            <select name="country" required>
+                <option value="">Country</option>
+                <option value="tr">Türkiye</option>
+                <option value="uk">United Kingdom</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>
+            To access the codes for this method, visit <a href="https://github.com/gayret">GitHub</a>
+        </p>
+        <p>
+            This form does not send data to any external sources, however, do not enter confidential information into forms you do not trust.
+        </p>
+        Developed by <a href="https://github.com/gayret">Safa Gayret</a>.
+    </footer>
+    <script src="./validation.js"></script>
+</body>
+
+</html>
